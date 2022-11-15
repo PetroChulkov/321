@@ -1,3 +1,3 @@
-web: python3 telegram_bot.py
-heroku ps:scale web=1
+bot: python3 telegram_bot.py
+heroku ps:scale bot=1
 
